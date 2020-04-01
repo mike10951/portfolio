@@ -4,6 +4,8 @@ html {
 
 * {
   box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
 }
 
 body {
