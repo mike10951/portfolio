@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mike10951/portfolio#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "node-sass": "^4.13.1"
   }
 }
