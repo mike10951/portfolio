@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio to showcase web development skills",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike10951/portfolio.git"
+  },
+  "author": "mike10951",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike10951/portfolio/issues"
+  },
+  "homepage": "https://github.com/mike10951/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
