@@ -7,10 +7,11 @@ html {
 }
 
 body {
+  @include background;
   padding: 0;
   margin: 0;
   height: 100vh;
-  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 3rem;
   background: $primary-color;
   color: $text-primary-color;
@@ -22,12 +23,12 @@ h3 {
   display: block;
 
   &.lg-heading {
-    font-family: "Sen", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sen', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 5rem;
   }
   &.sm-heading {
-    font-family: "Sen", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sen', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 2rem;
