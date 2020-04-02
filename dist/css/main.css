@@ -99,7 +99,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 3rem;
+  line-height: 2rem;
   background: #0c2461;
   color: #fad390; }
   body#bg-img {
@@ -133,6 +133,7 @@ h3 {
     font-family: 'Sen', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    line-height: 2rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(13, 39, 106, 0.5); }
@@ -199,5 +200,7 @@ main {
       background-position: center -30px; } }
 
 @media screen and (max-width: 500px) {
+  .lg-heading {
+    line-height: 7rem; }
   main#home h1 {
     margin-top: 10vh; } }
