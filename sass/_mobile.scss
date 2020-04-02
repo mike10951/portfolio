@@ -1,0 +1,63 @@
+// Widescreens
+@include mediaXl {
+  .menu-branding {
+    .profile-picture {
+      width: 480px;
+      height: 480px;
+      background-position: center -30px;
+    }
+  }
+}
+
+// Desktops and laptops
+@include mediaLg {
+}
+
+// Tablets and small laptops
+@include mediaMd {
+  main {
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .lg-heading {
+    margin-bottom: 5rem;
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+
+    .profile-picture {
+      background: url('../img/profile-picture_small.png');
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      background-position: center -30px;
+    }
+  }
+}
+
+// Smartphones
+@include mediaSm {
+  main#home h1 {
+    margin-top: 10vh;
+  }
+}
