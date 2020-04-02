@@ -11,6 +11,11 @@
 
 // Desktops and laptops
 @include mediaLg {
+  .projects {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // Tablets and small laptops
@@ -19,7 +24,6 @@
     align-items: center;
     text-align: center;
     line-height: 4rem;
-    overflow: hidden;
   }
 
   .lg-heading {
@@ -53,6 +57,12 @@
       height: 150px;
       background-position: center -30px;
     }
+  }
+
+  .projects {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
